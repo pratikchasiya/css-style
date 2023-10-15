@@ -1,0 +1,32 @@
+.sassCss{
+    background-color: burlywood;
+    color: cornsilk;
+}
+
+/* Aa rite nested css pn api sakat sass ni css ma */
+.main{
+  h2{
+    background-color: cadetblue;
+    color: crimson;
+  }
+  p{
+    background-color: gold;
+    color: darkgreen;
+  }
+}
+
+/* Aa rite & krine pn pn a class ni css excess kari sakay jem k main div ma sub name no class apyo che ani under ek bijo div lai ne ama same sub_name aa rite class name api ane sub p6i {} ma & lakhi _name aa rite lakhi excess kari sakay */
+/* sub and name ne joint kre and akho class bani jay */
+.sub{
+    &_name{
+        background-color: lightblue;
+    }
+    &_surname{
+        background-color: peru;
+    }
+}
+
+h2{
+    background-color: darkkhaki;
+    color: dodgerblue;
+}
